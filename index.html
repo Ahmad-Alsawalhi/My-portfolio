@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ahmad Alsawalhi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- The navigation bar-->
+    <nav>
+        <div class ="Left-Info">
+            <img src="YLight.jpg" id="MyImage">
+            <p id="contactInfoColor">Name: Ahmad Osama Alsawalhi </br>
+               Phone number: +962 791169639  </br>
+               Email: ahmadalsawalhi8@gmail.com </br>
+               GitHub: Ahmad-Alsawalhi
+            </p>
+        </div>
+    <!--Will make some sort of effect, everyone of those words when pressing on it will take us to its section-->
+        <div class="Right-Info">
+            <a href="#AboutMe">About Me</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Experience">Experience</a>
+        </div>
+    </nav>
+
+    <!--About me section-->
+    <section id="AboutMe">
+        <p>
+            <h1>About me</h1>
+            I’m a Software Engineering student with a strong focus on Back-End Development, where logic, structure, and reliability matter most.</br>
+            I <b>only</b> build clean, maintainable systems and solve real-world problems through code.</br>
+
+            I have hands-on experience with Python through academic and personal projects, and I’m currently advancing my skills through a Back-End MicroBachelors program.</br>
+
+            I learn fast, write with intention, and constantly push myself to grow as a Software Engineer.</br>
+            I don’t just write code — I build foundations.
+        </p>
+    </section>
+
+    <!--The field of skills-->
+    <fieldset id="Skills">
+        <legend>Skills</legend>
+    
+    <!--Harvard courses part-->
+        <h3>Harvard</h3>
+        <div class="HarvardCourses">
+        <img src="cs50-harvard .png" id="HarvardImage">
+        <p>1. Python (OOP, file handling, basic data structure)</br>
+        2. AI concepts with Python (search, logic, neural networks, machine learning)
+        </p>
+        </div>
+
+    <!--IBM courses part-->
+        <h3>IBM</h3>
+        <div class="IBM_courses">
+        <img src="ibm_logo_blue60_cmyk.jpg" id="IBMlogo">
+        <p>MicroBahcelors in Full-stack application develoment that consists of 13 courses:</br>
+            1. Introduction to Cloud Computing </br>
+            2. Introduction to Web Development with HTML5, CSS3, and JavaScript </br>
+            3. Git and GitHub Basics </br>
+            4. Developing Front End Apps with React </br>
+            5. Back-end Application Development with Node.js and Express </br>
+            6. Python Basics fo Data Science </br>
+            7. Python for AI & Development Project </br>
+            8. Django Application Development with SQL and Databases </br>
+            9. Introduction to Cloud Native, DevOps, Agile, and NoSQL </br>
+            10. Introduction to Containers, Kubernetes and OpenShift </br>
+            11. Microservices and Serverless </br>
+            12. Full Stack Application Development Project </br>
+            13. Full Stack Application Developer Capstone </br> 
+        </p>
+        </div>
+    </fieldset>
+
+    <!--Experiences field-->
+    <div id="Experience">
+        <div>
+    <h1>Experience</h1>
+    <p>Build two open-source applications available on my GitHub:</p>
+        <!--MiNote section-->
+        </div>
+        <h3>MiNote</h3>
+        <div class="normalMiNote">
+            <img src="MiNote screenshot.png" id="MiNoteImage">
+            <p>
+            <a href="https://github.com/Ahmad-Alsawalhi/MiNote" id="MiNote">MiNote</a> is a simple yet functional command-line program that allows users to write their own notes,edit them, and create structured “Activities Lists” (to-do lists) that can help inspire productivity and goal achievement.The application is designed to make note-taking quick and easy through a clear and minimal interface that runs entirely in the terminal. The purpose of this project is to build a fully functional,user-friendly note-taking application that works completely from the command line, without the need for any graphical interface or external tools. It was created as part of the final project requirement for CS50P (Introduction to Programming with Python), and it showcases how much can be done using only Python’s built-in features.The application is built using Python’s standard library only, except for one external library used solely for testing purposes.All data is stored persistently in plain text files.
+            </p>
+        </div>
+
+        <!--Enhanced MiNote section-->
+        <div>
+            <h3>Enhanced MiNote</h3>
+            <div class="EnhancedMiNote">
+            <img src="Enhanced MiNote screenshot.png" id="EnhancedMiNoteImage">
+            <p>
+            <a href="https://github.com/Ahmad-Alsawalhi/Enhanced-MiNote" id="EnhancedMiNote">Enhanced MiNote</a> MiNote is a simple yet functional Python application that allows users to write personal notes, edit them, and create structured “To-Do Lists” (Activities Lists) to help increase productivity and track goals. The application is designed to make note-taking quick and easy through a clear and minimal graphical interface built with Tkinter, which runs entirely in Python without any external libraries.
+
+This project was created as part of a learning project in Python, demonstrating how much can be done using only Python’s standard features. All data is stored persistently in plain text files inside the MiNote/ folder, ensuring that users’ notes and to-do lists are saved and accessible across sessions.
+            </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
