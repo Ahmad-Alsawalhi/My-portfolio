@@ -156,3 +156,27 @@ nav {
 #building{
     font-size: 1.1rem;
 }
+
+#AbuZhangImage{
+    width: 200px; 
+    height: 200px;                   /* حجم مناسب */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.AbuZhang{
+    display: flex;
+    flex-direction: row-reverse;    /* صورة يمين */
+    align-items: center;
+    gap: 50px;
+}
+
+.AbuZhang p{
+    flex: 1;                          /* النص ياخد المساحة */
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+#AbuZhang:hover{
+    color: rgb(227, 118, 118)
+}
