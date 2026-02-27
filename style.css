@@ -164,6 +164,11 @@ nav {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+#AbuZhang{
+    font-family: "Bold";  /*تعديل الكلمة*/
+    color: black;
+}
+
 .AbuZhang{
     display: flex;
     flex-direction: row-reverse;    /* صورة يمين */
@@ -180,3 +185,4 @@ nav {
 #AbuZhang:hover{
     color: rgb(227, 118, 118)
 }
+
